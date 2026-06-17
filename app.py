@@ -61,7 +61,7 @@ if uploaded_file is not None:
     st.sidebar.success("Using Uploaded Dataset")
 else:
     data_path = 'iphone15-reviews.csv'
-    st.sidebar.info("Using Default: iphone15-reviews.csv")
+    st.sidebar.info("Using Default: apple-iphone-16-128-gb_reviews.csv")
 
 # --- Load & Process Data ---
 @st.cache_data
